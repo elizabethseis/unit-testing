@@ -1,0 +1,22 @@
+{
+    "name": "test1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha",
+        "coverage": "c8 npm test",
+        "lint": "eslint ./ --fix"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "c8": "^9.1.0",
+        "mocha": "^10.3.0",
+        "mochawesome": "^7.1.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.57.0",
+        "eslint-config-google": "^0.14.0"
+    }
+}
